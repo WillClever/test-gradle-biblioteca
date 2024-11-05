@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.example</groupId>
+    <artifactId>mi-biblioteca</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <dependencies>
+        <!-- Dependencia transitiva -->
+        <dependency>
+            <groupId>com.pacifico.kuntur</groupId>
+            <artifactId>core</artifactId>
+            <version>0.17.0</version>
+        </dependency>
+    </dependencies>
+    <distributionManagement>
+      <repository>
+          <id>github</id>
+          <url>https://maven.pkg.github.com/WillClever/test-maven-biblioteca</url>
+      </repository>
+  </distributionManagement>
+</project>

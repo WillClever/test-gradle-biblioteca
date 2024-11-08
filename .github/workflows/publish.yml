@@ -23,3 +23,9 @@ jobs:
         env:
           USERNAME: ${{ secrets.USERNAME }} 
           GITHUB_TOKEN:  ${{ secrets.GH_PACKAGES_TOKEN }}
+          
+      - name: Display Dependency Tree
+        run: ./gradlew dependencies --configuration compileClasspath
+        env:
+          USERNAME: ${{ secrets.USERNAME }}
+          GITHUB_TOKEN: ${{ secrets.GH_PACKAGES_TOKEN }}    

@@ -63,8 +63,8 @@ publishing {
             }
         }
     }
-}```
-
+}
+```
 ## Uso de la Biblioteca en Otros Proyectos
 
 Para usar esta biblioteca en otro proyecto y acceder a sus dependencias transitivas, sigue estos pasos:
@@ -87,7 +87,8 @@ repositories {
 
 dependencies {
     implementation 'com.example:test-gradle-biblioteca:1.0.0-SNAPSHOT'
-}```
+}
+```
 
 ## Verificación de Dependencias Transitivas
 
